@@ -71,9 +71,13 @@ const LeftBar = () => {
       {/* LOGO MENU BUTTON */}
       <div className="flex flex-col gap-1 text-lg items-center xxl:items-start">
         {/* LOGO */}
-        <Link href="/" className="p-2 rounded-full  ">
+        <div className="flex">
+        <Link href="/" className="p-2 rounded-full  flex">
           <Image path="icons/logo.png" alt="logo" w={100} h={100} />
+                            <h1 className="mt-6 font-bold mr-6  fs-6">YURDEMY</h1>
+
         </Link>
+        </div>
         {/* MENU LIST */}
         <div className="flex flex-col gap-4 w-10 h-10"> 
           {menuList.map((item) => (
