@@ -4,6 +4,8 @@ import PostInfo from "./PostInfo";
 import PostInteractions from "./PostInteractions";
 import Video from "./Video";
 import Link from "next/link";
+"use client";
+
 
 interface FileDetailsResponse {
   width: number;
