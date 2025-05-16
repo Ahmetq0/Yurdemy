@@ -59,7 +59,7 @@ const UserPage = () => {
             </div>
             <div className="flex items-center gap-2">
               <Image path="icons/date.svg" alt="date" w={20} h={20} />
-              <span>Mayıs 2021'de katıldı</span>
+              <span>Mayıs 2021&apos;de katıldı</span>
             </div>
           </div>
           {/* FOLLOWINGS & FOLLOWERS */}
